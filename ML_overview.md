@@ -262,33 +262,30 @@ Understanding how well your model performs is crucial. Below are some key evalua
 - **Definition:** The ratio of correctly predicted observations to the total observations.
 - **When to Use:** Best used with balanced datasets where the classes are roughly equally represented.
   
-  \[
-  \text{Accuracy} = \frac{\text{Number of Correct Predictions}}{\text{Total Predictions}}
-  \]
+ 
+  Accuracy = Number of Correct Predictions/Total Predictions
+  
 
 ### Precision
 - **Definition:** The ratio of true positive predictions to the total predicted positives.
 - **Importance:** Indicates how many of the predicted positive cases were actually positive.
-  
-  \[
-  \text{Precision} = \frac{\text{True Positives}}{\text{True Positives + False Positives}}
-  \]
+
+  Precision = True Positives/(True Positives + False Positives)
 
 ### Recall (Sensitivity)
 - **Definition:** The ratio of true positive predictions to the total actual positives.
 - **Importance:** Measures how many of the actual positive cases your model captured.
   
-  \[
-  \text{Recall} = \frac{\text{True Positives}}{\text{True Positives + False Negatives}}
-  \]
+ 
+ Recall = True Positives/(True Positives + False Negatives)
 
 ### F1 Score
 - **Definition:** The harmonic mean of precision and recall.
 - **Importance:** Balances the trade-off between precision and recall, especially useful when you have an uneven class distribution.
   
-  \[
-  \text{F1 Score} = 2 \times \frac{\text{Precision} \times \text{Recall}}{\text{Precision + Recall}}
-  \]
+  
+  F1 Score = 2 * Precision * Recall/(Precision + Recall)
+  
 
 ### Confusion Matrix
 - **Definition:** A table that summarizes the performance of a classification model by comparing actual values with predicted values.
