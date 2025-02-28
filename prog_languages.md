@@ -1,6 +1,3 @@
-Below is a comprehensive guide to the basic concepts you should master in Python, Java, C, MongoDB, and SQL. These fundamentals will help you tackle most basic to intermediate interview questions in each area.
-
----
 
 ## Python
 
